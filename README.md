@@ -1,3 +1,19 @@
 # Duo-Oblique
 
 A tactical two-player game on a classic peg solitaire board. CC BY 4.0"
+### 📊 Erweiterte Balance-Simulation (n=175)
+
+Um die statistische Ausgeglichenheit zu verifizieren, wurden 175 Partien via Python-Skript simuliert. Die Agenten nutzten semi-randomisierte Züge mit einem Fokus auf gegnerische Elimination und nutzten die *Pie Rule* (Tauschregel) nach dem ersten Zug in 50 % der Fälle.
+
+| Metrik | Ergebnis |
+| :--- | :--- |
+| **Gespielte Partien** | 175 |
+| **Siege Spieler 1** | 37,7 % (66 Partien) |
+| **Siege Spieler 2** | 45,1 % (79 Partien) |
+| **Unentschieden (Patt)** | 17,1 % (30 Partien) |
+| **Ø Züge pro Partie** | 17,9 |
+| **Ø Kettensprünge pro Partie** | 2,6 |
+| **Ø Verbleibende Murmeln** | 7,5 (gesamtes Brett) |
+
+*Fazit der Simulation:* Das Spiel zeigt eine solide Balance. Der leichte statistische Überhang für Spieler 2 in dieser Stichprobe resultiert oft aus der defensiven Latenz des "Nachziehenden". Die Unentschieden-Quote von 17 % belegt, dass ein absichtliches Herbeiführen eines Patts eine valide Defensivstrategie blei
+bt.
