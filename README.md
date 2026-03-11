@@ -15,5 +15,11 @@ Um die statistische Ausgeglichenheit zu verifizieren, wurden 175 Partien via Pyt
 | **Ø Kettensprünge pro Partie** | 2,6 |
 | **Ø Verbleibende Murmeln** | 7,5 (gesamtes Brett) |
 
-*Fazit der Simulation:* Das Spiel zeigt eine solide Balance. Der leichte statistische Überhang für Spieler 2 in dieser Stichprobe resultiert oft aus der defensiven Latenz des "Nachziehenden". Die Unentschieden-Quote von 17 % belegt, dass ein absichtliches Herbeiführen eines Patts eine valide Defensivstrategie blei
-bt.
+*Fazit der Simulation:* Das Spiel zeigt eine solide Balance. Der leichte statistische Überhang für Spieler 2 in dieser Stichprobe resultiert oft aus der defensiven Latenz des "Nachziehenden". Die Unentschieden-Quote von 17 % belegt, dass ein absichtliches Herbeiführen eines Patts eine valide Defensivstrategie bleibt.
+
+🧠 Strategische Erkenntnisse (KI-Audit)
+In Zusammenarbeit mit Large Language Models (Claude & Gemini) wurde Duo Obliqué auf seine Spieltheorie hin untersucht.
+Wichtigste Erkenntnis: Eine rein defensive Spielweise ("eigene Steine schützen/opfern") führt gegen einen aggressiven Spieler in 86 % der Fälle zur Niederlage.
+Aggressive Strategie: Priorisiert das Schlagen gegnerischer Murmeln.
+Defensive Strategie: Versucht, die eigene Formation kompakt zu halten.
+Tipp für Spieler: Duo Obliqué ist ein dynamisches Spiel. Passivität wird bestraft. Nutze die Tausch-Regel am Anfang weise, um nicht in eine reaktive Position gedrängt zu werden!
