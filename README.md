@@ -1,6 +1,16 @@
 # Duo-Oblique
 
-A tactical two-player game on a classic peg solitaire board. CC BY 4.0"
+A tactical two-player game on a classic peg solitaire board. CC BY 4.0
+
+## 🎯 Spielziel & Siegbedingung
+
+Im Gegensatz zum klassischen Solitär ist Duo Obliqué kein Solospiel zur Eliminierung aller Kugeln, sondern ein territoriales Verdrängungsspiel.
+
+1. **Hauptziel:** Sichere dir die numerische Überlegenheit auf dem Brett.
+2. **Der Mechanismus:** Reduziere die Gesamtanzahl der Murmeln durch Sprünge, während du versuchst, deine eigenen Steine in vorteilhaften Positionen zu halten oder den Gegner zu isolieren.
+3. **Sieg:** Es gewinnt der Spieler, der nach dem letzten möglichen Zug mehr Murmeln seiner Farbe auf dem Spielfeld hat.
+
+
 ### 📊 Erweiterte Balance-Simulation (n=175)
 
 Um die statistische Ausgeglichenheit zu verifizieren, wurden 175 Partien via Python-Skript simuliert. Die Agenten nutzten semi-randomisierte Züge mit einem Fokus auf gegnerische Elimination und nutzten die *Pie Rule* (Tauschregel) nach dem ersten Zug in 50 % der Fälle.
